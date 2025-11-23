@@ -12,3 +12,97 @@ class Solution {
     }
 }
 //we can either use hashmap or xor operator
+
+//Medium
+class Solution {
+    public int singleNumber(int[] nums) {
+
+        int i = 0;
+       
+        int ans = 0;
+
+        for(i = 0; i < 32;i++){
+             int count = 0;
+            for(int j = 0; j < nums.length;j++){
+                if((nums[j] &(1 << i)) != 0){
+                    count++;
+       }
+  }
+     
+          if(count % 3 == 1){
+            ans = ans | (1 << i);
+
+             }
+        }
+
+        return ans;
+        
+    }
+}
+
+
+//so here the approach we are using is to just check for every bit if there exist a set bit we can increase the count
+//the new count value will be divided by 3 to check if there is any unique bit of number that has come along with it
+//if yes we will set the answer
+//the loop continues
+
+
+
+//Sorting
+class Solution {
+    public int singleNumber(int[] nums) {
+
+
+        Arrays.sort(nums);
+
+        int i = 0;
+        for(i = 1;i < nums.length;i += 3){
+
+            if(nums[i] != nums[i-1]){
+                return nums[i-1];
+            }
+
+        }
+        return nums[nums.length-1];
+
+
+       
+        
+    }
+}
+
+//just sorting it and matching the current num and last num if it matches simply return it
+//the last element is returned if no element is found in between or at the start
+
+
+//Box
+class Solution {
+    public int singleNumber(int[] nums) {
+
+        int i = 0;
+        int findNum = 0;
+        int varNum = 0;
+        for(i = 0;i < nums.length;i++){
+
+            findNum = findNum ^ nums[i] & ~varNum;
+            varNum = varNum ^ nums[i] & ~findNum;
+        
+        }
+
+        return findNum;
+
+       
+        
+    }
+}
+
+
+//take two variables and if the number is not stored in second one then the number is stored in the previous one
+//if the number come again then it is deleted from the previous one and stored in the second one
+//if the number appears thrice then it is tried with the previous one and due the second variable storing the number it could not be stored in previous one
+//delete the number from the second one
+//so the box is empty now
+//this process continues till it found the required number
+
+
+
