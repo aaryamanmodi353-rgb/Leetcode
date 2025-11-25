@@ -105,4 +105,58 @@ class Solution {
 //this process continues till it found the required number
 
 
+//If there are two single number in the array
+class Solution {
+    public int[] singleNumber(int[] nums) {
+
+
+
+        int resultaddone = 0;
+        int resultaddtwo = 0;
+
+        int i = 0;
+
+        long bitCal = 0;
+        for(i = 0;i < nums.length;i++){
+            bitCal= bitCal ^ nums[i];
+            
+
+        }
+        bitCal = (bitCal & (bitCal-1))  ^ bitCal;
+
+
+
+        for(i = 0; i < nums.length;i++){
+            if((bitCal & nums[i]) != 0){
+                resultaddone = resultaddone ^ nums[i];
+            }
+
+            if((bitCal & nums[i]) == 0){
+                resultaddtwo = resultaddtwo ^ nums[i];
+
+            }
+
+
+        }
+
+
+        int resultarr[] = {resultaddone,resultaddtwo};
+
+
+        return resultarr;
+        
+        
+    }
+}
+
+//first approach is of using Hashmaps but it will consume more time and more space 
+//use the second apporach of (long since 2^31-1)xor by creating two variables so firsly do the xor of every number in the array to get the final number
+//the number is then used to identify the first bit in the right side so for that just follow the xor operator way 
+//then two variables which were created earlier so if the bit used for identifying and the number with and operator gives zero keep it seperatly in another variable
+//the one which does not give zero keep it in a separate varaible
+//so then finally create an array of these two variables
+
+
+
+
 
