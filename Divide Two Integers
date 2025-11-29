@@ -1,0 +1,51 @@
+
+class Solution {
+    public int divide(int dividend, int divisor) {
+        boolean sign = false;
+       int result = 0;
+
+        if(dividend == 0){
+            return 0;
+        }
+        if(dividend == divisor){
+            return 1;
+        }
+
+        if(dividend >= 0 && divisor <0){
+            sign = true;
+        }
+        if(dividend <= 0 && divisor > 0){
+            sign = true;
+        }
+    
+  
+
+       long num = Math.abs((long)dividend);
+       long div = Math.abs((long)divisor);
+
+
+        while(num >= div){
+            int count = 0;
+            
+            while(num >= (div  << (count+1))){
+                count++;
+            }
+
+            result +=  1 << count;
+            num -= (div <<count);
+
+
+
+        }
+
+         if(result == Integer.MIN_VALUE && divisor == -1){
+            return Integer.MAX_VALUE;
+        }
+
+        if(result == Integer.MIN_VALUE && divisor == 1){
+            return Integer.MIN_VALUE *-1;
+        }
+
+
+//we just need to make two special cases if the result is equal to the integer max or min value and just return the max value in case of min value and divisor both are negative and return min value(div is positive)
+//logic used here is loop through the number and just check the largest possible power of 2 * divisor which is less than the dividend
