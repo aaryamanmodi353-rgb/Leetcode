@@ -1,0 +1,114 @@
+class Solution {
+    public ListNode sortList(ListNode head) {
+        int countzero = 0;
+        int countone = 0;
+        int countwo = 0;
+
+        ListNode curr = head;
+
+        while(curr != null){
+            if(curr.data == 0){
+                countzero++;
+            }
+            else if(curr.data == 1){
+                countone++;
+
+            }
+            else{
+                countwo++;
+            }
+
+            curr = curr.next;
+
+
+        }
+
+        curr = head;
+
+
+        while(curr != null){
+            if(countzero != 0){
+                curr.data = 0;
+                curr = curr.next;
+                countzero--;
+            }
+            else if(countone != 0){
+                curr.data = 1;
+                curr = curr.next;
+                countone--;
+            }
+            else{
+                curr.data = 2;
+                curr = curr.next;
+                counttwo--;
+            }
+
+            
+        }
+
+
+        return head;
+       
+    }
+}
+
+
+
+//Best approach
+
+class Solution {
+    public ListNode sortList(ListNode head) {
+
+        
+        ListNode headzero = new  ListNode(-1);
+        ListNode headone = new ListNode(-1);
+        ListNode headtwo = new ListNode(-1);
+        if(head == null || head.next == null){
+            return head;
+        }
+       
+        ListNode zero = headzero;
+        ListNode one = headone;
+        ListNode two = headtwo;
+
+
+        ListNode curr = head;
+
+
+        while(curr != null){
+            if(curr.data == 0){
+                zero.next = curr;
+                zero = zero.next;
+            }
+
+           else if(curr.data == 1){
+                one.next = curr;
+                one = one.next;
+            }
+
+            else{
+                two.next = curr;
+                two = two.next;
+            }
+            curr = curr.next;
+        }
+
+            if(headone.next != null){
+                zero.next = headone.next;
+            }
+            else{
+                zero.next = headtwo.next;
+            }
+            one.next = headtwo.next;
+            two.next = null;
+
+
+          
+          
+            return headzero.next;
+        
+    
+    }
+}
+
+class Solution {
