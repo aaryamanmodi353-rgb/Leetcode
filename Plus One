@@ -1,0 +1,93 @@
+class Solution {
+
+    public static ListNode reverse(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+
+        ListNode newNode = reverse(head.next);
+        ListNode forwardPointer = head.next;
+        forwardPointer.next = head;
+        head.next = null;
+        
+
+        return newNode;
+    }
+    public ListNode plusOne(ListNode head) {
+        head = reverse(head);
+
+        ListNode curr = head;
+        int carry = 0;
+
+        int sum = 1;
+
+
+        while(curr != null){
+            sum  += curr.val  + carry;
+            curr.val = sum%10;
+            carry = sum/10;
+            sum = 0;
+
+            curr = curr.next;
+            
+        }
+        if(carry != 0){
+            ListNode headCurr = new ListNode(carry);
+            headCurr.next = head;
+            head = headCurr;
+            return head;
+        }
+
+        head = reverse(head);
+
+
+        return head;
+
+        
+    }
+}
+
+
+//Best approach
+class Solution {
+
+    public static int carryAdd(ListNode head){
+        if(head == null){
+            return 1;
+        }
+        int carry = carryAdd(head.next);
+        head.val = head.val + carry;
+        
+        if(head.val < 10){
+            return 0;
+        }
+        else{
+            head.val = 0;
+            return 1;
+        }
+    }
+
+public static ListNode addOne(ListNode head){
+
+    int carry = carryAdd(head);
+    if(carry != 0){
+        ListNode newNode = new ListNode(carry);
+        newNode.next = head;
+        head = newNode;
+        return head;
+
+    }
+    else{
+        return head;
+    }
+
+}
+    public ListNode plusOne(ListNode head) {
+        
+        head = addOne(head);
+
+        return head;
+       
+        
+    }
+}
