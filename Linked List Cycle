@@ -1,0 +1,51 @@
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+
+        HashMap<ListNode, Integer> hmap = new HashMap<>();
+
+        if(head == null || head.next == null){
+            return false;
+        }
+
+        ListNode curr = head;
+
+        while(curr != null){
+            if(hmap.containsKey(curr)){
+                return true;
+            }
+            else{
+                hmap.put(curr, hmap.getOrDefault(curr,0)+1);
+            }
+            curr = curr.next;
+        }
+        return false;
+   
+
+        
+        
+    }
+}
+
+//Best approach 
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        ListNode slowPointer = head;
+        ListNode fastPointer = head;
+
+        if(head == null || head.next == null){
+            return false;
+        }
+
+        while(fastPointer != null && fastPointer.next != null){
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+
+            if(slowPointer == fastPointer){
+                return true;
+            }
+
+        }
+        return false;
+        
+    }
+}
