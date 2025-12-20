@@ -1,0 +1,49 @@
+class Solution {
+    public ListNode middleNode(ListNode head) {
+
+        ListNode curr = head;
+        int count = 0;
+        
+        int midPoint = 0;
+
+        while(curr != null){
+            count++;
+            curr = curr.next;
+        }
+
+        midPoint = count/2;
+        
+        curr = head;
+        while(midPoint != 0){
+            midPoint--;
+            curr = curr.next;
+
+        }
+ 
+        return curr;  
+
+        
+    }
+}
+
+//Best approach
+class Solution {
+    public ListNode middleNode(ListNode head) {
+
+        ListNode slowPointer = head;
+        ListNode fastPointer = head;
+
+        while(fastPointer != null && fastPointer.next != null){
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+
+
+        }
+
+
+        return slowPointer;
+
+
+        
+    }
+}
