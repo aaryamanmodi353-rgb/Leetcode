@@ -1,0 +1,76 @@
+import java.util.HashMap;
+public class Solution
+{
+    public static int lengthOfLoop(Node head) {
+
+     HashMap<Node, Integer> hmap = new HashMap<>();
+     Node curr = head;
+     int timer = 1;
+
+     while(curr != null){
+         if(hmap.containsKey(curr)){
+             timer++;
+             return (timer - hmap.get(curr));
+             
+         }
+         else{
+             hmap.put(curr,hmap.getOrDefault(curr,++timer));
+         }
+        
+         curr = curr.next;
+
+
+     }
+    return 0;
+        
+    }
+}
+
+//Best apporach
+import java.util.HashMap;
+public class Solution
+{
+    public static int lengthOfLoop(Node head) {
+
+     Node slowPointer = head;
+     Node fastPointer = head;
+     int count = 0;
+
+     while(fastPointer != null && fastPointer.next != null){
+         slowPointer = slowPointer.next;
+         fastPointer = fastPointer.next.next;
+
+         if(slowPointer == fastPointer){
+            break; 
+         }
+         
+             
+         }
+
+         if(slowPointer == fastPointer){
+             fastPointer = fastPointer.next;
+             count++;
+
+             while(slowPointer != fastPointer){
+                 fastPointer = fastPointer.next;
+                 count++;
+             }
+             return count;
+
+         }
+         else{
+             return 0;
+         }
+
+        
+
+     
+        
+         
+
+
+         
+     
+        
+    }
+}
