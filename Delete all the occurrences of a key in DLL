@@ -1,0 +1,43 @@
+class Solution {
+    public ListNode deleteAllOccurrences(ListNode head, int target) {
+       
+
+        if(head.val == target){
+            ListNode newNode = head.next;
+            head.next = null;
+            newNode.prev = null;
+            head = newNode;
+        }
+
+
+        ListNode curr = head;
+        while(curr != null){
+            if(curr.val == target){
+                ListNode prevNode = curr.prev;
+                ListNode newNode = curr.next;
+                if(prevNode != null){
+                prevNode.next = newNode;
+                }
+                if(newNode != null){
+                newNode.prev = prevNode;
+                }
+               
+
+                
+            }
+            curr = curr.next;
+
+
+
+            
+
+        }
+
+      
+
+
+        
+return head;
+
+    }
+}
