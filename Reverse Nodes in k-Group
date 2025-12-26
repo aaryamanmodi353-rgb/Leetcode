@@ -1,0 +1,59 @@
+class Solution {
+
+    public static ListNode nthNode(ListNode head, int k){
+        k -= 1;
+        ListNode currNode = head;
+
+        while(currNode != null && k > 0){
+            currNode = currNode.next;
+            k--;
+        }
+        return currNode;
+    }
+
+    public static ListNode reverse(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode newNode = reverse(head.next);
+        ListNode forwardNode = head.next;
+        forwardNode.next = head;
+        head = newNode;
+        return newNode;
+    }
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode curr = head;
+        ListNode prevNode = null;
+       
+         
+        while(curr != null){
+            ListNode nthNode = nthNode(curr,k); 
+        if(nthNode == null){
+        
+        if(prevNode != null){
+            prevNode.next = curr;
+    
+        }
+        break;
+        }
+       ListNode nextNode = nthNode.next;
+        nthNode.next = null;
+        reverse(curr);
+        curr.next = nextNode;
+        if(curr == head){
+            head = nthNode;
+        }
+        else{
+            prevNode.next = nthNode;
+        }
+        prevNode = curr;
+        curr = nextNode;
+
+
+        }
+
+        return head;
+
+        
+    }
+}
