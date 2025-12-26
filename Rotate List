@@ -1,0 +1,71 @@
+class Solution {
+
+    public static ListNode nthNode(ListNode head, int k){
+        k -= 1;
+        ListNode currHead = head;
+        while(k > 0){
+            currHead = currHead.next;
+            k--;
+        }
+        return currHead;
+    }
+
+    public static ListNode reverse(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+
+        ListNode newNode = reverse(head.next);
+        ListNode forwardNode = head.next;
+        forwardNode.next = head;
+        head.next = null;
+        return newNode;
+        
+    }
+
+    public ListNode rotateRight(ListNode head, int k) {
+
+    if(head == null || head.next == null){
+        return head;
+    }
+       int count = 0;
+
+       ListNode curr = head;
+       while(curr != null){
+        curr = curr.next;
+        count++;
+       }
+       k = k%count;
+
+       if(k == 0){
+        return head;
+       }
+
+        
+        curr = reverse(head);
+
+        ListNode nthNode =  nthNode(curr, k);
+       
+        ListNode nextNode = nthNode.next;
+        nthNode.next = null;
+        ListNode prevNode = reverse(curr);
+        reverse(nextNode);
+        curr.next = head;
+
+        return prevNode;
+        
+        
+
+        
+        
+        
+        
+
+
+
+
+        
+        
+        
+    }
+}
