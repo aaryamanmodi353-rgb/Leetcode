@@ -1,0 +1,40 @@
+class Solution {
+    public ListNode flattenLinkedList(ListNode head) {
+        List<Integer> lst = new ArrayList<>();
+
+        if(head == null && head.next == null){
+            return head;
+        }
+
+        ListNode curr = head;
+        ListNode currHead = new ListNode(-1);
+        ListNode result = currHead;
+
+        while(curr != null){
+            ListNode currChild = curr;
+            while(currChild != null){
+                lst.add(currChild.val);
+                currChild = currChild.child;
+
+
+
+            }
+
+            curr = curr.next;
+
+        }
+
+        Collections.sort(lst);
+        
+
+        for(int j = 0; j < lst.size();j++){
+           currHead.child = new ListNode(lst.get(j));
+           currHead = currHead.child;
+        }
+
+        return result.child;
+        
+
+
+    }
+}
