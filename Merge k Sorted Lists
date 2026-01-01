@@ -1,0 +1,86 @@
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+
+        int i = 0;
+        List<Integer> lst =  new ArrayList<>();
+        
+        for(i = 0;i < lists.length;i++){
+
+            ListNode curr = lists[i];
+
+            while(curr != null){
+                lst.add(curr.val);
+                curr = curr.next;
+            }
+        }
+
+        Collections.sort(lst);
+
+
+        ListNode result = new ListNode(-1);
+        ListNode newNode = result;
+        
+
+        for(int j = 0;j < lst.size();j++){
+            result.next= new ListNode(lst.get(j));
+            result = result.next;
+
+        }
+
+
+        return newNode.next;
+        
+    }
+}
+
+//Best Approach
+class Solution {
+
+    public static ListNode mergeNodes(ListNode[] lst){
+
+
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((ListNode x, ListNode y ) -> x.val - y.val);
+        int i = 0;
+
+        for(i = 0; i < lst.length;i++){
+           if(lst[i] != null){
+            pq.add(lst[i]);
+           }
+        }
+
+        ListNode newNode = new ListNode(-1);
+        ListNode result = newNode;
+
+
+        while(!pq.isEmpty()){
+           ListNode pNode = pq.peek();
+           pq.poll();
+            
+            newNode.next = pNode;
+
+            
+
+            if(pNode.next != null){
+                pq.add(pNode.next);
+                
+            }
+            newNode = newNode.next;
+            
+         
+            
+
+            
+        }
+        return result.next;
+
+
+
+    }
+    public ListNode mergeKLists(ListNode[] lists) {
+
+        ListNode curr = mergeNodes(lists);
+
+        return curr;
+        
+    }
+}
