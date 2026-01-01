@@ -1,0 +1,92 @@
+class Solution {
+    public ListNode sortList(ListNode head) {
+
+        ListNode curr = head;
+      
+        List<Integer> lst = new ArrayList<>();
+
+        while(curr != null){
+            lst.add(curr.val);
+            curr = curr.next;
+            
+            
+        }
+        curr = head;
+
+        Collections.sort(lst);
+
+        for(int j = 0;j < lst.size();j++){
+            curr.val = lst.get(j);
+            curr = curr.next;
+        }
+
+        return head;
+
+
+        
+        
+    }
+}
+
+//Best approach
+class Solution {
+
+
+    public static ListNode mergeNodes(ListNode curr, ListNode currNode){
+        ListNode newNode = new ListNode(-1);
+        ListNode result = newNode;
+
+        while(curr != null && currNode != null){
+            if(curr.val < currNode.val){
+                newNode.next = curr;
+                curr = curr.next;
+                newNode = newNode.next;
+            }
+            else{
+                newNode.next = currNode;
+                currNode = currNode.next;
+                newNode = newNode.next;
+    
+            }
+            
+        }
+
+        newNode.next = (curr != null) ? curr : currNode;
+        return result.next;
+    }
+
+
+    public static ListNode getmidNode(ListNode head){
+        ListNode slowPointer = head;
+        ListNode fastPointer = head.next;
+
+        while(fastPointer != null && fastPointer.next != null){
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+        }
+        return slowPointer;
+
+    }
+
+    public static ListNode sortNode(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode middle = getmidNode(head);
+        ListNode low = head;
+        ListNode high = middle.next;
+        middle.next = null;
+
+        low = sortNode(low);
+        high = sortNode(high);
+        return mergeNodes(low, high);
+
+    }
+    public ListNode sortList(ListNode head) {
+        
+        head = sortNode(head);
+
+        return head;
+        
+    }
+}
