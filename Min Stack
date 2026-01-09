@@ -1,0 +1,102 @@
+class MinStack {
+
+    Stack <int[]> stk;
+
+
+    public MinStack() {
+        stk = new Stack<>();
+        
+        
+    }
+    
+    public void push(int val) {
+        if(stk.isEmpty()){
+            stk.push(new int[]{val,val});
+        }
+        else{
+            int compareVal = stk.peek()[1];
+            stk.push(new int[]{val, Math.min(compareVal,val)});
+        }
+        
+    }
+    
+    public void pop() {
+        stk.pop();
+        
+    }
+    
+    public int top() {
+       return stk.peek()[0];
+        
+    }
+    
+    public int getMin() {
+        return stk.peek()[1];
+
+        
+    }
+}
+
+
+//Best approach
+class MinStack {
+    long minVal = Integer.MIN_VALUE;
+    Stack<Long>stk;
+
+    public MinStack() {
+    stk = new Stack<>();
+        
+    }
+    
+    public void push(int val) {
+    if(stk.isEmpty()){
+     stk.push((long)val);
+     minVal = val;
+    }
+
+    else if(val < minVal){
+    stk.push((long)2 * val - minVal);
+    minVal = val;
+    
+
+}
+else{
+
+stk.push((long)val);
+}
+    }
+    
+
+    public void pop() {
+        if(stk.isEmpty()){
+            return;
+        }
+      long compareVal = stk.pop();
+      if(compareVal < minVal){
+        minVal = (long)2*minVal - compareVal;
+      }
+    }
+    
+    public int top() {
+        if(stk.isEmpty()){
+            return -1;
+        }
+        long compareVal = stk.peek();
+
+    if(minVal < compareVal){
+        return (int)compareVal;
+    }
+    else{
+        return (int) minVal;
+    }
+        
+    }
+    
+    public int getMin() {
+        if(stk.isEmpty()){
+            return -1;
+        }
+        return (int) minVal;
+        
+    }
+}
