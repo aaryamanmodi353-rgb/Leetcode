@@ -1,0 +1,25 @@
+class Solution {
+    public int[] nextLargerElement(int[] arr) {
+
+        int arrResult[] = new int[arr.length];
+        Stack<Integer> stk = new Stack<>();
+        
+        int j = arr.length-1;
+
+        while(j >= 0){
+            while(!stk.isEmpty() && stk.peek() <= arr[j]){
+                stk.pop();
+            }
+
+            if(stk.isEmpty()){
+                arrResult[j] = -1;
+
+            }
+            else{
+                arrResult[j] = stk.peek();
+            } 
+          
+            stk.push(arr[j]);
+            j--;
+        }     
+        
