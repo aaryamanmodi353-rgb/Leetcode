@@ -1,0 +1,53 @@
+class Solution {
+
+    public static int[] prefixMax(int arr[]){
+        int prefixMax[] = new int[arr.length];
+        prefixMax[0] = arr[0];
+        
+        int i = 0;
+        for(i = 1; i < arr.length;i++){
+            prefixMax[i] = Math.max(prefixMax[i-1], arr[i]);
+
+        }
+        return prefixMax;
+
+        
+
+    }
+
+
+    public static int[] suffixMax(int arr[]){
+        int suffixMax[] = new int[arr.length];
+
+       suffixMax[arr.length-1] = arr[arr.length-1];
+
+       int i = arr.length-1;
+
+       for(i = arr.length-2; i >= 0; i--){
+        suffixMax[i] = Math.max(suffixMax[i+1], arr[i] );
+       }
+       return suffixMax;
+
+        
+    }
+    public int trap(int[] height) {
+
+        int prefixMax[] = prefixMax(height);
+        int suffixMax[] = suffixMax(height);
+
+
+        int i = 0;
+
+        int total = 0;
+
+        for(i = 0; i < height.length;i++){
+            int prefix = prefixMax[i];
+            int suffix = suffixMax[i];
+
+            total += Math.min(prefix, suffix) - height[i];
+            
+        }   
+
+        return total;     
+    }
+}
