@@ -1,0 +1,74 @@
+class Solution {
+
+
+    public static  int[] findNextsmallerelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stk = new Stack<>();
+        
+        int i = arr.length-1;
+        int length = arr.length;
+
+        while(i >= 0){
+            while(!stk.isEmpty() && arr[stk.peek()] > arr[i]){
+                stk.pop();
+            }
+            result[i] = stk.isEmpty() ?  length : stk.peek();
+            stk.push(i);
+            i--;
+            
+            
+            
+            
+            
+        }
+        return result;
+
+
+    }
+
+
+    public static int[] nextPrevelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stkprev = new Stack<>();
+        
+        int i = 0;
+        while(i < arr.length){
+        while(!stkprev.isEmpty() && arr[stkprev.peek()] >= arr[i]){
+            stkprev.pop();
+        }
+
+        result[i] = stkprev.isEmpty() ? -1 : stkprev.peek();
+        stkprev.push(i);
+        i++;
+    
+        }
+        return result;
+    
+
+    }
+    public int sumSubarrayMins(int[] arr) {
+        int i = 0;
+        int nextSmallerelement[] = new int[arr.length];
+        int ascendingSmallerelement[] = new int[arr.length];
+
+        nextSmallerelement = findNextsmallerelement(arr);
+        ascendingSmallerelement = nextPrevelement(arr);
+
+
+
+        int mod = (int)1e9 + 7;
+        long total = 0;
+
+        for(i = 0;i < arr.length;i++){
+            int left = i - ascendingSmallerelement[i];
+            int right = nextSmallerelement[i] - i;
+
+            total = (total + (long)right * left *arr[i]%mod)%mod;
+
+
+
+        }        
+
+        return (int) total;
+    }
+}
