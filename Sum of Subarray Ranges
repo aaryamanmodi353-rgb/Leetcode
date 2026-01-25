@@ -1,0 +1,161 @@
+class Solution {
+    public long subArrayRanges(int[] nums) {
+        int i = 0;
+        
+
+        long total = 0;
+        for(i = 0;i < nums.length; i++){
+            int min = nums[i];
+            int max = nums[i];
+            for(int j = i; j < nums.length;j++){
+                min = Math.min(nums[j], min);
+                max = Math.max(nums[j], max);
+
+                total = total + (max - min);
+
+
+            }
+
+        }
+        return total;
+        
+    }
+}
+
+//Best approach
+class Solution {
+
+     public static  int[] findNextsmallerelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stk = new Stack<>();
+        
+        int i = arr.length-1;
+        int length = arr.length;
+
+        while(i >= 0){
+            while(!stk.isEmpty() && arr[stk.peek()] > arr[i]){
+                stk.pop();
+            }
+            result[i] = stk.isEmpty() ?  length : stk.peek();
+            stk.push(i);
+            i--;
+            
+            
+            
+            
+            
+        }
+        return result;
+
+
+    }
+
+
+    public static int[] nextPrevelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stkprev = new Stack<>();
+        
+        int i = 0;
+        while(i < arr.length){
+        while(!stkprev.isEmpty() && arr[stkprev.peek()] >= arr[i]){
+            stkprev.pop();
+        }
+
+        result[i] = stkprev.isEmpty() ? -1 : stkprev.peek();
+        stkprev.push(i);
+        i++;
+    
+        }
+        return result;
+    
+
+    }  public static  int[] findNextgreaterelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stk = new Stack<>();
+        
+        int i = arr.length-1;
+        int length = arr.length;
+
+        while(i >= 0){
+            while(!stk.isEmpty() && arr[stk.peek()] < arr[i]){
+                stk.pop();
+            }
+            result[i] = stk.isEmpty() ?  length : stk.peek();
+            stk.push(i);
+            i--;
+            
+            
+            
+            
+            
+        }
+        return result;
+
+
+    }
+
+
+    public static int[] nextPrevgreaterelement(int arr[]){
+        int result[] = new int[arr.length];
+        Stack<Integer> stkprev = new Stack<>();
+        
+        int i = 0;
+        while(i < arr.length){
+        while(!stkprev.isEmpty() && arr[stkprev.peek()] <= arr[i]){
+            stkprev.pop();
+        }
+
+        result[i] = stkprev.isEmpty() ? -1 : stkprev.peek();
+        stkprev.push(i);
+        i++;
+    
+        }
+        return result;
+    
+
+    }
+    public long subArrayRanges(int[] nums) {
+
+           int i = 0;
+        int nextSmallerelement[] = new int[nums.length];
+        int ascendingSmallerelement[] = new int[nums.length];
+        int nextGreaterelement[] = new int[nums.length];
+        int descendingGreaterelement[] = new int[nums.length];
+
+
+        nextSmallerelement = findNextsmallerelement(nums);
+        ascendingSmallerelement = nextPrevelement(nums);
+        nextGreaterelement  = findNextgreaterelement(nums);
+        descendingGreaterelement = nextPrevgreaterelement(nums);
+
+
+
+      
+        long totalMin = 0;
+        long totalMax = 0;
+
+        for(i = 0;i < nums.length;i++){
+            int left = i - ascendingSmallerelement[i];
+            int right = nextSmallerelement[i] - i;
+
+            totalMin = (totalMin + (long)right * left *nums[i]);
+
+
+
+        }   
+        for(i = 0;i < nums.length;i++){
+            int left = i - descendingGreaterelement[i];
+            int right = nextGreaterelement[i] - i;
+
+            totalMax = (totalMax + (long)right * left *nums[i]);
+
+
+
+        }
+
+        return totalMax - totalMin;     
+
+
+        
+    }
+}
