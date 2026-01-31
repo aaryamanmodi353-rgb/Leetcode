@@ -1,0 +1,64 @@
+class Solution {
+
+    public static int largestHistogram(int arr[]){
+        Stack<Integer> stk = new Stack<>();
+        int maxarea = Integer.MIN_VALUE;
+
+
+        int i = 0;
+
+        while(i < arr.length){
+            while(!stk.isEmpty() && arr[stk.peek()] > arr[i] ){
+                int width = arr[stk.peek()];
+                stk.pop();
+                int nse = i;
+                int pse = stk.isEmpty() ? -1 : stk.peek();
+
+                int area = width*(nse - pse - 1);
+                maxarea = Math.max(area, maxarea);
+                
+            }
+            stk.push(i);
+            i++;
+        }
+
+        while(!stk.isEmpty()){
+            int nse = arr.length;
+            int width = arr[stk.peek()];
+            stk.pop();
+
+            int pse = stk.isEmpty() ? -1 : stk.peek();
+
+            int area = width*(nse - pse - 1);
+            maxarea = Math.max(area, maxarea);
+        }
+
+        return maxarea;
+
+    }
+    public int maximalRectangle(char[][] matrix) {
+
+        int prefix[][] = new int[matrix.length][matrix[0].length];
+
+        int i = 0;
+        int maxarea = Integer.MIN_VALUE;
+        
+        for(i = 0;i < matrix.length;i++){
+            int sum = 0;
+            for(int j = 0;j < matrix[i].length;j++){
+            if (matrix[i][j] == '1') {
+                prefix[i][j] = (i == 0) ? 1 : prefix[i - 1][j] + 1;
+            } else {
+                prefix[i][j] = 0;
+            }
+        }
+        maxarea = Math.max(maxarea, largestHistogram(prefix[i]));
+        }
+
+        return maxarea;
+        
+
+       
+        
+    }
+}
