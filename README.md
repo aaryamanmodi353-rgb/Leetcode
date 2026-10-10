@@ -1,3 +1,3 @@
 # Leetcode Questions
 
-Here i upload the solved quesiots on leetcode
+Here i upload the solved questions on leetcode
