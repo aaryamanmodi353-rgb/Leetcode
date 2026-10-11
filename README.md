@@ -31,6 +31,7 @@ Here i upload the solved questions on leetcode
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -39,6 +40,7 @@ Here i upload the solved questions on leetcode
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -47,6 +49,7 @@ Here i upload the solved questions on leetcode
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Array
 |  |
 | ------- |
@@ -56,4 +59,12 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0100-same-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
