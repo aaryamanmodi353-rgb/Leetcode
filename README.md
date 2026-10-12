@@ -21,6 +21,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 ## Tree
@@ -29,6 +30,7 @@ Here i upload the solved questions on leetcode
 | [0094-binary-tree-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -38,6 +40,7 @@ Here i upload the solved questions on leetcode
 | [0094-binary-tree-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -47,6 +50,7 @@ Here i upload the solved questions on leetcode
 | [0094-binary-tree-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0101-symmetric-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -67,4 +71,8 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
+## Linked List
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 <!---LeetCode Topics End-->
