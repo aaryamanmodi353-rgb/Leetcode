@@ -35,6 +35,7 @@ Here i upload the solved questions on leetcode
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -57,6 +58,7 @@ Here i upload the solved questions on leetcode
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 ## Array
 |  |
 | ------- |
@@ -82,4 +84,5 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
