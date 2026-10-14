@@ -35,6 +35,7 @@ class Solution {
             while(size > 0){
                 TreeNode p = q.poll();
                 lst.add(p.val);
+                size--;
             
             if(p.left != null){
                 q.add(p.left);
@@ -42,12 +43,9 @@ class Solution {
             if(p.right != null){
                 q.add(p.right);
             }
-            size--;
+            
             }
             res.add(new ArrayList<>(lst));
-           
-            
-
             
         }
         return res;
