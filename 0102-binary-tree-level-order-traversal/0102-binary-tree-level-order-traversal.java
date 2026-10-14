@@ -20,12 +20,12 @@ class Solution {
 
         List<List<Integer>> res = new LinkedList<>();
 
-        if(root == null){
+        if(root != null){
             
-            return res;
+            q.add(root);
         }
 
-        q.add(root);
+        
 
         while(!q.isEmpty()){
 
