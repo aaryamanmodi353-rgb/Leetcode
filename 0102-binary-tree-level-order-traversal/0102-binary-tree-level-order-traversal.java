@@ -18,7 +18,7 @@ class Solution {
 
         Queue<TreeNode> q = new LinkedList<>();
 
-        List<List<Integer>> res = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
 
         if(root != null){
             
