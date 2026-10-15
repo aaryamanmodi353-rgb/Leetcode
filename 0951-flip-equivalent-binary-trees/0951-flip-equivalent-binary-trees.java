@@ -15,23 +15,9 @@
  */
 class Solution {
 
-    public TreeNode invertTreeRoot(TreeNode root){
-        if(root == null){
-            return null;
-        }
-
-        TreeNode leftNode = invertTreeRoot(root.left);
-        TreeNode rightNode = invertTreeRoot(root.right);
-
-        root.left = rightNode;
-        root.right = leftNode;
-
-        return root;
-    }
     
     public boolean flipEquiv(TreeNode root1, TreeNode root2) {
 
-        invertTreeRoot(root1);
 
         if(root1 == null && root2 == null){
             return true;
@@ -45,7 +31,10 @@ class Solution {
             return false;
         }
 
-       return flipEquiv(root1.left, root2.left) && flipEquiv(root1.right, root2.right) || flipEquiv(root1.left, root2.right) && flipEquiv(root1.right, root2.left);
+        return flipEquiv(root1.left, root2.left) && flipEquiv(root1.right, root2.right) || 
+        flipEquiv(root1.left, root2.right) && flipEquiv(root1.right, root2.left);
+
+      
         
     }
 }
