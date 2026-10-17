@@ -20,10 +20,10 @@ class Solution {
         int totalSum = 0;
         
         if(p.val < q.val){
-          totalSum = lca(root, p, q);
+          lca(root, p, q);
         }
         else{
-            totalSum = lca(root, q, p);
+            lca(root, q, p);
 
         }
 
@@ -36,25 +36,29 @@ class Solution {
     }
 
 
-    public int lca(TreeNode root, TreeNode p, TreeNode q){
+    public void lca(TreeNode root, TreeNode p, TreeNode q){
         if(root == null){
-            return 0;
+            return ;
         }
 
-        int left = lca(root.left, p, q);
-        int right = lca(root.right, q, p);
-        int self = 0;
+        if(root.val < p.val){
+            lca(root.right, p, q);
+        }
+        if(root.val > q.val){
+        lca(root.left, q, p);
+        }
 
         if(root == p || root == q){
-            self = 1;
-        }
-
-        int totalSum = left + right + self;
-        if(totalSum == 2 && ans == null){
             ans = root;
+            return;
         }
 
-        return totalSum;
+        if(p.val <= root.val && root.val <= q.val){
+            ans = root;
+            return;
+        }
+
+      
 
     }
 }
