@@ -17,7 +17,7 @@ class Solution {
             return root;
         }
         ans = null;
-        int totalSum = 0;
+       
         
         if(p.val < q.val){
           lca(root, p, q);
@@ -45,7 +45,7 @@ class Solution {
             lca(root.right, p, q);
         }
         if(root.val > q.val){
-        lca(root.left, q, p);
+        lca(root.left, p, q);
         }
 
         if(root == p || root == q){
