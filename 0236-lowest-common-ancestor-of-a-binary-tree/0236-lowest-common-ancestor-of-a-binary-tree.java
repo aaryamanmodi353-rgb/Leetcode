@@ -10,13 +10,11 @@
 class Solution {
 
     TreeNode ans;
-   
-
     
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
         if(root == null){
-        return root;
+        return null;
         }
 
         ans = null;
@@ -37,6 +35,7 @@ class Solution {
         int left = lca(root.left, p, q);
         int right = lca(root.right, p, q);
         int self = 0;
+
         if(root == p || root == q){
             self = 1;
         }
