@@ -14,37 +14,37 @@
  * }
  */
 class Solution {
+
     TreeNode ans;
     int maxSize;
-    public TreeNode lcaDeepestLeaves(TreeNode root) {
-        if(root == null){
-            return root;
-        }
-        ans = null;
-        maxSize = 0;
-
-        int totalSum = lca(root, 0);
-
-        return ans;
-        
-    }
 
     public int lca(TreeNode root, int currSize){
         if(root == null){
             return currSize - 1;
         }
-
         maxSize = Math.max(currSize, maxSize);
 
-        int leftNode = lca(root.left, currSize + 1);
-        int rightNode = lca(root.right, currSize + 1);
+        int leftVal = lca(root.left, currSize + 1);
+        int rightVal = lca(root.right, currSize + 1);
 
-        if(leftNode == maxSize && rightNode == maxSize){
+        if(leftVal == maxSize && rightVal == maxSize){
             ans = root;
-
+            
         }
 
-        return Math.max(leftNode, rightNode);
+        return Math.max(leftVal, rightVal);
+        
+        
+    }
+    public TreeNode lcaDeepestLeaves(TreeNode root) {
+        if(root == null){
+            return root;
+        }
+
+        int totalSum = lca(root, 0);
+
+        return ans;
+
         
     }
 }
