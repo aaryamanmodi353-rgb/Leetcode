@@ -9,46 +9,21 @@
  */
 
 class Solution {
-
     TreeNode ans;
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        
-        if(root == null){
-            return root;
-        }
-        ans = null;
-       
-        
-        if(p.val < q.val){
-          lca(root, p, q);
-        }
-        else{
-            lca(root, q, p);
-
-        }
-
-
-        return ans;
-
-
-
-        
-    }
-
 
     public void lca(TreeNode root, TreeNode p, TreeNode q){
         if(root == null){
-            return ;
+            return;
         }
 
         if(root.val < p.val){
             lca(root.right, p, q);
         }
         if(root.val > q.val){
-        lca(root.left, p, q);
+            lca(root.left, p, q);
         }
 
-        if(root == p || root == q){
+        if(root.val == p.val || root.val == q.val){
             ans = root;
             return;
         }
@@ -57,8 +32,22 @@ class Solution {
             ans = root;
             return;
         }
+    }
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        
+        if(root == null){
+            return root;
+        }
 
-      
+        ans = null;
+        
+        if(p.val < q.val){
+             lca(root, p, q);
+        }
+        else{
+            lca(root, q, p);
+        }
 
+        return ans;
     }
 }
