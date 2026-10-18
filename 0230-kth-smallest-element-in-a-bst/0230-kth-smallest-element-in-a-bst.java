@@ -14,24 +14,30 @@
  * }
  */
 class Solution {
+    PriorityQueue<TreeNode> pq;
 
-    public int kthSmallestUtil(TreeNode root,int k,TreeNode temp)
-    {
-        if(root == null)
-            return -1;
-        int left = kthSmallestUtil(root.left,k,temp);
-        if(left != -1)
-            return left;
-        if(temp.val == k)
-        {
-            return root.val;
+    public void inorder(TreeNode root, int k){
+        if(root == null){
+            return;
         }
-        temp.val++;
-        int right = kthSmallestUtil(root.right,k,temp);
-        return right;
+        inorder(root.left, k);
+        pq.add(root);
+        if(pq.size() > k){
+            pq.poll();
+        }
+        inorder(root.right, k);
     }
+
+    
     public int kthSmallest(TreeNode root, int k) {
-        TreeNode temp = new TreeNode(1);
-        return kthSmallestUtil(root,k,temp);
+
+       pq = new PriorityQueue<>((a, b) -> Integer.compare(b.val, a.val));
+       
+
+       inorder(root, k);
+
+       return pq.poll().val;
+
+
     }
 }
