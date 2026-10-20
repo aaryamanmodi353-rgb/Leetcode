@@ -15,11 +15,33 @@
  */
 class Solution {
 
+
+
     TreeNode prev;
-    boolean found;
+    boolean foundVal;
 
+
+    public void isSorted(TreeNode root){
+        if(root == null){
+            return;
+        }
+        isSorted(root.left);
+        if(prev == null){
+            prev = root;
+        }
+        else{
+            if(root.val <= prev.val){
+               foundVal = false;
+            }
+        }
+
+        prev = root;
+
+        isSorted(root.right);
+
+    }
+    
     public boolean isValidBST(TreeNode root) {
-
         if(root == null){
             return true;
         }
@@ -28,36 +50,12 @@ class Solution {
             return true;
         }
 
-        found = true;
         prev = null;
+        foundVal = true;
 
         isSorted(root);
 
-        if (found) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public void isSorted(TreeNode root) {
-        if (root == null) {
-            return;  
-        }
-        isSorted(root.left);
-        if (prev == null) {
-            prev = root;
-        } else {
-            if (root.val <= prev.val) {
-                found = false;
-
-            }
-
-        }
-        prev = root;
+        return foundVal;
         
-        isSorted(root.right);
-
     }
-
 }
