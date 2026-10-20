@@ -15,40 +15,33 @@
  */
 class Solution {
 
-
-
     TreeNode ans;
     int minSize;
 
+public int lca(TreeNode root, int currSize){
 
-    public int lca(TreeNode root, int currSize){
-        if(root == null){
-            return Integer.MAX_VALUE;
-        }
-       
+    if(root == null){
+        return Integer.MAX_VALUE;
+    }
 
-       if(root.left == null && root.right == null){
-        return currSize;
-       }
+    if(root.left == null && root.right == null){
+        return currSize + 1;
+    }
+    
+    int left = lca(root.left, currSize + 1);
+    int right = lca(root.right, currSize + 1);
 
+    return Math.min(left, right);
 
+}
 
-        int leftVal = lca(root.left, currSize + 1);
-        int rightVal = lca(root.right, currSize + 1);
-
-        return Math.min(leftVal, rightVal);
-        
-      }
     public int minDepth(TreeNode root) {
         if(root == null){
             return 0;
+
         }
 
-       
-        return lca(root, 1);
-        
+       return lca(root, 0);
 
-        
-        
     }
 }
