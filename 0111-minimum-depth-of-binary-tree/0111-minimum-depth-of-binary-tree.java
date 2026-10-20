@@ -25,7 +25,7 @@ public int lca(TreeNode root, int currSize){
     }
 
     if(root.left == null && root.right == null){
-        return currSize + 1;
+        return currSize;
     }
     
     int left = lca(root.left, currSize + 1);
@@ -41,7 +41,7 @@ public int lca(TreeNode root, int currSize){
 
         }
 
-       return lca(root, 0);
+       return lca(root, 1);
 
     }
 }
