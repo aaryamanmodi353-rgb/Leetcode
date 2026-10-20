@@ -14,25 +14,38 @@
  * }
  */
 class Solution {
+    boolean result = true;
 
-    private boolean result = true;
-    public boolean isBalanced(TreeNode root) {
-        if(root == null) return true;
-        checkBalanced(root);
-
-        return result;
-    }
-
-    private int checkBalanced(TreeNode root){
-
-        if(root == null) return 0;
+    public int checkBalanced(TreeNode root){
+        if(root == null){
+            return 0;
+        }
 
         int left = checkBalanced(root.left);
         int right = checkBalanced(root.right);
 
-        if(Math.abs(left-right) > 1){
+        if(Math.abs(left - right) > 1){
             result = false;
         }
-        return 1+Math.max(left, right);
+
+        return 1 + Math.max(left, right);
     }
+    public boolean isBalanced(TreeNode root) {
+
+        if(root == null){
+            return true;
+        }
+
+        checkBalanced(root);
+
+        return result;
+
+    
+
+       
+
+        
+    }
+
+
 }
