@@ -14,10 +14,10 @@
  * }
  */
 class Solution {
-
+    
     public int lca(TreeNode root, int currSize){
         if(root == null){
-            return Integer.MIN_VALUE;
+            return 0;
         }
 
         if(root.left == null && root.right == null){
@@ -30,11 +30,12 @@ class Solution {
         return Math.max(left, right);
     }
     public int maxDepth(TreeNode root) {
+
         if(root == null){
             return 0;
         }
 
         return lca(root, 1);
-
+        
     }
 }
