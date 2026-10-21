@@ -15,47 +15,45 @@
  */
 class Solution {
 
-
-
     TreeNode prev;
-    boolean foundVal;
-
+    boolean found;
 
     public void isSorted(TreeNode root){
         if(root == null){
             return;
         }
+
         isSorted(root.left);
+        
         if(prev == null){
             prev = root;
         }
+
         else{
             if(root.val <= prev.val){
-               foundVal = false;
+                found = false;
+                return;
             }
         }
-
         prev = root;
 
         isSorted(root.right);
 
     }
-    
     public boolean isValidBST(TreeNode root) {
+
         if(root == null){
             return true;
         }
 
-        if(root.left == null && root.right == null){
-            return true;
-        }
-
         prev = null;
-        foundVal = true;
+        found = true;
 
         isSorted(root);
 
-        return foundVal;
+        return found;
+
+        
         
     }
 }
