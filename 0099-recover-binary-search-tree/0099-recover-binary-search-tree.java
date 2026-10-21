@@ -21,7 +21,39 @@ class Solution {
     TreeNode r;
     TreeNode s;
     int count;
+
+    public void isSorted(TreeNode root){
+        if(root == null){
+            return;
+        }
+
+        isSorted(root.left);
+        if(prev == null){
+            prev = root;
+        }
+        else if(root.val <= prev.val){
+            if(count == 0){
+                p = prev;
+                q = root;
+                count++;
+            }
+            else{
+                r = prev;
+                s = root;
+                count++;
+            }
+        }
+
+        prev = root;
+        isSorted(root.right);
+
+    }
+
     public void recoverTree(TreeNode root) {
+
+        if(root == null){
+            return;
+        }
 
         prev = null;
         p = null;
@@ -30,7 +62,7 @@ class Solution {
         s = null;
         count = 0;
 
-        isSortTree(root);
+        isSorted(root);
 
         if(count == 1){
             int temp = p.val;
@@ -38,52 +70,10 @@ class Solution {
             q.val = temp;
         }
         else{
-
             int temp = p.val;
             p.val = s.val;
             s.val = temp;
-
-
         }
-
-
-        
-        
-       
-        
-    }
-
-    void isSortTree(TreeNode root){
-
-        if(root == null){
-            return;
-        }
-
-        isSortTree(root.left);
-
-        
-        if(prev == null){
-            prev = root;
-        }
-        else{
-            if(root.val < prev.val){
-                if(count == 0){
-                    p = prev;
-                    q = root;
-                    count++;
-                }
-                else{
-                    r = prev;
-                    s = root;
-                    count++;
-                }
-            }
-        }
-        prev = root;
-
-        isSortTree(root.right);
-        
-
         
     }
 }
