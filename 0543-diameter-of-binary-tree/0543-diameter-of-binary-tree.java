@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+
     int totalSum;
 
     public int lca(TreeNode root){
@@ -21,26 +22,32 @@ class Solution {
             return 0;
         }
 
+        if(root.left == null && root.right == null){
+            return 1;
+        }
 
-       int left = lca(root.left);
-       int right = lca(root.right);
-       int sum = left + right;
-       totalSum = Math.max(sum, totalSum);
+        int left = lca(root.left);
+        int right = lca(root.right);
 
-       return Math.max(left, right) + 1;
+        int sum = left + right;
+        totalSum = Math.max(sum, totalSum);
+
+        return Math.max(left, right) + 1;
     }
+
     public int diameterOfBinaryTree(TreeNode root) {
         if(root == null){
             return 0;
         }
 
-        totalSum  = 0;
+        totalSum = 0;
 
-         lca(root);
+        lca(root);
 
 
         return totalSum;
 
+        
         
     }
 }
