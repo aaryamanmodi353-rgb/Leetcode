@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public TreeNode result = null;
+    public TreeNode result;
     public int maxPathSumUtil(TreeNode root) {
         if(root==null)
         {
