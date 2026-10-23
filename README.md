@@ -11,6 +11,7 @@ Here i upload the solved questions on leetcode
 ## Dynamic Programming
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
@@ -42,6 +43,7 @@ Here i upload the solved questions on leetcode
 | [0112-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -70,6 +72,7 @@ Here i upload the solved questions on leetcode
 | [0112-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -99,6 +102,7 @@ Here i upload the solved questions on leetcode
 | [0112-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -173,6 +177,7 @@ Here i upload the solved questions on leetcode
 ## DP on Trees
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Two Pointers
