@@ -14,33 +14,52 @@
  * }
  */
 class Solution {
-    public TreeNode result;
-    public int maxPathSumUtil(TreeNode root) {
-        if(root==null)
-        {
+
+    int maxSum;
+
+    public int maxPathSumUtil(TreeNode root){
+        if(root == null){
             return 0;
         }
-        if(root.left == null && root.right == null)
-        {
-            result.val = Math.max(result.val,root.val);
-            return root.val;
-        }
-        int left = maxPathSumUtil(root.left);
-        int right = maxPathSumUtil(root.right);
-        int total = left + right + root.val;
-        int ret1 = left + root.val;
-        int ret2 = right + root.val;
-        result.val = Math.max(result.val,total);
-        result.val = Math.max(result.val, ret1);
-        result.val = Math.max(result.val, ret2);
-        result.val = Math.max(result.val,root.val);
 
-        return Math.max(root.val , Math.max(ret1,ret2));
+       if(root.left == null && root.right == null){
+        maxSum = Math.max(root.val, maxSum);
+        return root.val;
+       }
+
+       int left = maxPathSumUtil(root.left);
+       int right = maxPathSumUtil(root.right);
+       int total = left + right + root.val;
+       int resLeft = left + root.val;
+       int resRight = right + root.val;
+
+       
+       maxSum = Math.max(total, maxSum);
+       maxSum = Math.max(Math.max(resLeft, resRight), maxSum);
+       maxSum = Math.max(root.val, maxSum);
+
+
+       return Math.max(root.val, Math.max(resLeft, resRight));
+
+
     }
-
     public int maxPathSum(TreeNode root) {
-        result = new TreeNode(root.val);
+        if(root == null){
+            return 0;
+        }
+
+        maxSum = root.val;
+
         maxPathSumUtil(root);
-        return result.val;                
+
+        return maxSum;
+
+    
+
+        
+
+
+
+        
     }
 }
