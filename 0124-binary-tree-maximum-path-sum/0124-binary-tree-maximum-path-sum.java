@@ -33,9 +33,10 @@ class Solution {
        int resLeft = left + root.val;
        int resRight = right + root.val;
 
-       total = Math.max(Math.max(resLeft, resRight), total);
+      
 
        maxSum = Math.max(total, maxSum);
+       maxSum = Math.max(Math.max(resLeft, resRight), maxSum);
        maxSum = Math.max(root.val, maxSum);
 
 
