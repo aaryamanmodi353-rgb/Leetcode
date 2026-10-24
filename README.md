@@ -37,6 +37,7 @@ Here i upload the solved questions on leetcode
 | [0102-binary-tree-level-order-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
@@ -96,6 +97,7 @@ Here i upload the solved questions on leetcode
 | [0102-binary-tree-level-order-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
@@ -121,6 +123,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -172,6 +175,7 @@ Here i upload the solved questions on leetcode
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## DP on Trees
@@ -184,4 +188,8 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 <!---LeetCode Topics End-->
