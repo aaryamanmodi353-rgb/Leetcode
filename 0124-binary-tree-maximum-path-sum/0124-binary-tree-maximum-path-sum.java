@@ -14,51 +14,42 @@
  * }
  */
 class Solution {
-
     int maxSum;
 
-    public int maxPathSumUtil(TreeNode root){
+
+    public int equalSum(TreeNode root){
         if(root == null){
             return 0;
         }
+        if(root.left == null && root.right == null){
+            maxSum = Math.max(root.val, maxSum);
+            return root.val;
+        }
 
-       if(root.left == null && root.right == null){
-        maxSum = Math.max(root.val, maxSum);
-        return root.val;
-       }
+        int left = equalSum(root.left);
+        int right = equalSum(root.right);
+        int total = left + right + root.val;
+        int resLeft = left + root.val;
+        int resRight = right + root.val;
 
-       int left = maxPathSumUtil(root.left);
-       int right = maxPathSumUtil(root.right);
-       int total = left + right + root.val;
-       int resLeft = left + root.val;
-       int resRight = right + root.val;
-
-      
-
-       maxSum = Math.max(total, maxSum);
-       maxSum = Math.max(maxSum, Math.max(resLeft, resRight));
-       maxSum = Math.max(root.val, maxSum);
+        total = Math.max(total, Math.max(resLeft, resRight));
+        maxSum = Math.max(maxSum, Math.max(total, root.val));
 
 
-       return Math.max(root.val, Math.max(resLeft, resRight));
-
-
+        return Math.max(root.val, Math.max(resLeft, resRight));
+        
     }
     public int maxPathSum(TreeNode root) {
         if(root == null){
+
             return 0;
         }
 
         maxSum = root.val;
 
-        maxPathSumUtil(root);
+        equalSum(root);
 
         return maxSum;
-
-    
-
-        
-
 
 
         
