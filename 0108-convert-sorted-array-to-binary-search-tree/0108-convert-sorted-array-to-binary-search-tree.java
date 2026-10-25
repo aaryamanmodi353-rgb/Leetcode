@@ -15,25 +15,29 @@
  */
 class Solution {
 
-    public TreeNode orderTree(int nums[], int low, int high){
-        if(low > high){
-            return null;
-        }
-        int p = (low + high) / 2;
+    public TreeNode onSortedArray(int nums[], int low, int high){
 
-        TreeNode node =  new TreeNode(nums[p]);
-        node.left = orderTree(nums, low, p - 1);
-        node.right = orderTree(nums, p + 1, high);
-        return node;
+       if(low > high){
+        return null;
+       }
+       int p = (low + high) / 2;
+
+       TreeNode node = new TreeNode(nums[p]);
+
+       node.left = onSortedArray(nums, low, p - 1);
+       node.right = onSortedArray(nums, p + 1, high);
+
+       return node;
+
+        
     }
-
     public TreeNode sortedArrayToBST(int[] nums) {
+
         if(nums.length == 0){
             return null;
         }
 
-        return orderTree(nums, 0, nums.length -1);
-
-
+        return onSortedArray(nums, 0 , nums.length - 1);
+        
     }
 }
