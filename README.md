@@ -78,6 +78,7 @@ Here i upload the solved questions on leetcode
 | [0129-sum-root-to-leaf-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -127,6 +128,7 @@ Here i upload the solved questions on leetcode
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -138,6 +140,7 @@ Here i upload the solved questions on leetcode
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
@@ -197,4 +200,12 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
