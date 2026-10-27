@@ -84,6 +84,7 @@ Here i upload the solved questions on leetcode
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0951-flip-equivalent-binary-trees](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
@@ -143,6 +144,7 @@ Here i upload the solved questions on leetcode
 | [0112-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0547-number-of-provinces](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
@@ -206,9 +208,14 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
