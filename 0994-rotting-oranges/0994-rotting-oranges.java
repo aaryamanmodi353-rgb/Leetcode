@@ -57,7 +57,7 @@ class Solution {
 
         }
 
-        return fresh == 0 ? time : -1;
+        return fresh != 0 ? -1 : time;
 
     }
 
