@@ -57,8 +57,12 @@ class Solution {
 
         }
 
-        return fresh != 0 ? -1 : time;
-
+        if(fresh != 0){
+            return -1;
+        }
+        else{
+            return time;
+        }
     }
 
     public boolean valid(int grid[][], int row, int column){
