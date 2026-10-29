@@ -2,7 +2,7 @@ class Solution {
 
     public void dfs(char grid[][], int row, int column, boolean visited[][]){
 
-        visited[row][column] = true;
+     visited[row][column] = true;
         
         int x[] = {-1, 1, 0, 0};
         int y[] = {0, 0, -1, 1};
