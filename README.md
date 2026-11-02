@@ -164,6 +164,7 @@ Here i upload the solved questions on leetcode
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Binary Search Tree
 |  |
@@ -241,4 +242,12 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0176-second-highest-salary) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
