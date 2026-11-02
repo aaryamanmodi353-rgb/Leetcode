@@ -11,8 +11,8 @@ class Solution {
 
         while(num > 0){
 
-            int temp = num % 10;
-            sum = sum * 10 + temp;
+            
+            sum = sum * 10 + num % 10;
             num = num / 10;
 
 
