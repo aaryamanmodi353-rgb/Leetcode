@@ -1,33 +1,34 @@
 class Solution {
-    public boolean palindromeString(String s, int start, int end){
-       
-        if(start >= end){
-            return true;
-        }
-
-        
-        
-        if(!Character.isLetterOrDigit(s.charAt(start))){
-            return palindromeString(s, start + 1, end);
-        }
-        if(!Character.isLetterOrDigit(s.charAt(end))){
-            return palindromeString(s, start, end - 1);
-        }
-
-        if(Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end))){
-           return false;
-        }
-
-        return palindromeString(s, start + 1, end - 1);
-
-        
-
-        
-        
-
-    }
     public boolean isPalindrome(String s) {
         
-        return palindromeString(s, 0, s.length() - 1);
+        int start = 0;
+        int end = s.length() - 1;
+
+        while(start < end){
+
+            while(start < end && !Character.isLetterOrDigit(s.charAt(start))){
+                start++;
+                
+                
+            }
+            while(end > start && !Character.isLetterOrDigit(s.charAt(end))){
+                end--;
+               
+            }
+
+            
+            if(Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end))){
+               return false;
+            }
+
+            start++;
+            end--;
+            
+            
+
+        
+        }
+
+        return true;
     }
 }
