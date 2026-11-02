@@ -8,6 +8,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
@@ -206,6 +207,7 @@ Here i upload the solved questions on leetcode
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Divide and Conquer
 |  |
