@@ -19,11 +19,7 @@ class Solution {
 
         }
 
-        if(sum != x){
-            return false;
-        }
-
-        return true;
+     return sum == x;
         
     }
 }
