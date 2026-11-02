@@ -127,6 +127,7 @@ Here i upload the solved questions on leetcode
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0001-two-sum) |
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -189,6 +190,7 @@ Here i upload the solved questions on leetcode
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
