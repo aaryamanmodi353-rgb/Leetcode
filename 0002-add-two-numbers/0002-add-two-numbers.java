@@ -29,7 +29,7 @@ class Solution {
 
         int sum = 0;
 
-        while(head != null || headnode != null){
+        while(head != null || headnode != null || carry != 0){
             
             sum = carry;
 
@@ -52,10 +52,7 @@ class Solution {
             
         }
 
-        if(carry != 0){
-            ListNode node = new ListNode(carry);
-            curr.next = node;
-        }
+     
 
 
         return res.next;
