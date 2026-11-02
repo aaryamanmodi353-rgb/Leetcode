@@ -7,7 +7,7 @@ class Solution {
 
         int num = x;
 
-        int sum = 0;
+        long sum = 0;
 
         while(num > 0){
 
