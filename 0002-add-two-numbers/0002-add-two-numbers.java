@@ -15,8 +15,7 @@ class Solution {
         ListNode res = new ListNode(-1);
         ListNode curr = res;
 
-        ListNode head = l1;
-        ListNode headnode = l2;
+     
 
         if(l1 == null){
             return l2;
@@ -29,18 +28,18 @@ class Solution {
 
         int sum = 0;
 
-        while(head != null || headnode != null || carry != 0){
+        while(l1 != null || l2 != null || carry != 0){
             
             sum = carry;
 
-            if(head != null){
-                sum += head.val;
-                head = head.next;
+            if(l1 != null){
+                sum += l1.val;
+                l1 = l1.next;
             }
 
-            if(headnode != null){
-                sum += headnode.val;
-                headnode = headnode.next;
+            if(l2 != null){
+                sum += l2.val;
+                l2 = l2.next;
             }
 
             ListNode node = new ListNode(sum % 10);
