@@ -248,6 +248,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0009-palindrome-number) |
 ## Recursion
 |  |
 | ------- |
