@@ -235,4 +235,8 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
