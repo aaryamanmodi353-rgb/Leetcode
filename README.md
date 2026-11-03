@@ -137,6 +137,7 @@ Here i upload the solved questions on leetcode
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -179,6 +180,7 @@ Here i upload the solved questions on leetcode
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Binary Lifting
 |  |
 | ------- |
@@ -244,6 +246,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Database
 |  |
 | ------- |
@@ -261,4 +264,13 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
+## Sorting
+|  |
+| ------- |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
+## Prefix Sum
+|  |
+| ------- |
+| [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 <!---LeetCode Topics End-->
