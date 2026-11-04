@@ -10,6 +10,7 @@ Here i upload the solved questions on leetcode
 | [0003-longest-substring-without-repeating-characters](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -133,6 +134,7 @@ Here i upload the solved questions on leetcode
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
@@ -245,6 +247,7 @@ Here i upload the solved questions on leetcode
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Database
@@ -268,6 +271,7 @@ Here i upload the solved questions on leetcode
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Prefix Sum
 |  |
