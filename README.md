@@ -136,6 +136,7 @@ Here i upload the solved questions on leetcode
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
+| [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
@@ -220,6 +221,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Union-Find
 |  |
 | ------- |
@@ -272,9 +274,18 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
+| [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
