@@ -254,7 +254,7 @@ Here i upload the solved questions on leetcode
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Database
 |  |
-| ------- |a
+| ------- |
 | [0176-second-highest-salary](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0176-second-highest-salary) |
 ## Math
 |  |
