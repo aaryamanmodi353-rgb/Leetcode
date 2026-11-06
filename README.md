@@ -143,6 +143,7 @@ Here i upload the solved questions on leetcode
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Breadth-First Search
 |  |
@@ -186,6 +187,7 @@ Here i upload the solved questions on leetcode
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Binary Lifting
 |  |
@@ -238,6 +240,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Graph Theory
 |  |
 | ------- |
