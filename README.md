@@ -16,6 +16,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -261,10 +262,12 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0009-palindrome-number) |
+| [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
+| [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Sliding Window
 |  |
 | ------- |
@@ -288,4 +291,8 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
