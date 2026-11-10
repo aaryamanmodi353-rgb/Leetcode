@@ -178,6 +178,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Binary Search Tree
 |  |
@@ -220,6 +221,7 @@ Here i upload the solved questions on leetcode
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
