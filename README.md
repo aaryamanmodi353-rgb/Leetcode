@@ -19,6 +19,7 @@ Here i upload the solved questions on leetcode
 | [0124-binary-tree-maximum-path-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 ## Backtracking
 |  |
 | ------- |
@@ -145,6 +146,7 @@ Here i upload the solved questions on leetcode
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Breadth-First Search
