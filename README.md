@@ -137,6 +137,7 @@ Here i upload the solved questions on leetcode
 | [0001-two-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
+| [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -246,6 +247,7 @@ Here i upload the solved questions on leetcode
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -277,6 +279,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
