@@ -139,6 +139,7 @@ Here i upload the solved questions on leetcode
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0053-maximum-subarray) |
+| [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
@@ -227,6 +228,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0344-reverse-string) |
@@ -295,6 +297,7 @@ Here i upload the solved questions on leetcode
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
