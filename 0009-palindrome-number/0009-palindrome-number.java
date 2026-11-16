@@ -5,25 +5,25 @@ class Solution {
             return false;
         }
 
-        int num = x;
-
         int sum = 0;
 
-        while(num > 0){
+        int num = x;
 
-            
-            sum = sum * 10 + num % 10;
-            num = num / 10;
+        while(num != 0){
 
-
+            int temp = num % 10;
+            sum = sum * 10 + temp;
+            num /= 10;
 
         }
 
-     if(sum != x){
-        return false;
-     }
+        if(sum != x){
+            return false;
+        }
 
-     return true;
+        return true;
+      
+
         
     }
 }
