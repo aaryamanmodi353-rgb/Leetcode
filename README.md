@@ -278,6 +278,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0176-second-highest-salary) |
+| [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 ## Math
 |  |
 | ------- |
