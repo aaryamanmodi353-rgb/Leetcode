@@ -148,6 +148,7 @@ Here i upload the solved questions on leetcode
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
@@ -236,6 +237,7 @@ Here i upload the solved questions on leetcode
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0344-reverse-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -289,6 +291,7 @@ Here i upload the solved questions on leetcode
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
+| [0189-rotate-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0189-rotate-array) |
 | [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
