@@ -154,6 +154,7 @@ Here i upload the solved questions on leetcode
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
+| [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -244,6 +245,7 @@ Here i upload the solved questions on leetcode
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0344-reverse-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -314,6 +316,7 @@ Here i upload the solved questions on leetcode
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
+| [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Prefix Sum
 |  |
