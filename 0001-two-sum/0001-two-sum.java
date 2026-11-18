@@ -4,16 +4,15 @@ class Solution {
         HashMap<Integer, Integer> hmap = new HashMap<>();
 
         int i = 0;
-       
+     
 
         for(i = 0; i < nums.length; i++){
-            
             int sum = target - nums[i];
-
 
             if(hmap.containsKey(sum)){
                 return new int[]{i, hmap.get(sum)};
             }
+
             hmap.put(nums[i], i);
         }
 
