@@ -145,6 +145,7 @@ Here i upload the solved questions on leetcode
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0053-maximum-subarray) |
+| [0075-sort-colors](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -243,6 +244,7 @@ Here i upload the solved questions on leetcode
 | [0016-3sum-closest](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -319,6 +321,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0015-3sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0016-3sum-closest) |
+| [0075-sort-colors](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -345,4 +348,12 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0020-valid-parentheses) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
