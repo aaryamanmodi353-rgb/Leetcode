@@ -232,6 +232,7 @@ Here i upload the solved questions on leetcode
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -255,6 +256,7 @@ Here i upload the solved questions on leetcode
 | [0142-linked-list-cycle-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0344-reverse-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -310,6 +312,7 @@ Here i upload the solved questions on leetcode
 | [0009-palindrome-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
@@ -367,4 +370,5 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0141-linked-list-cycle](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
