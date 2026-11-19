@@ -191,6 +191,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0002-add-two-numbers](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0203-remove-linked-list-elements](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0203-remove-linked-list-elements) |
 ## Binary Search Tree
