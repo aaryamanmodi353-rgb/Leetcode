@@ -140,6 +140,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0001-two-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0048-rotate-image) |
@@ -239,6 +240,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0015-3sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -316,6 +318,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0015-3sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0016-3sum-closest) |
 | [0088-merge-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
