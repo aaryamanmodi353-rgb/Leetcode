@@ -1,12 +1,14 @@
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
 
+        Arrays.sort(nums);
+
         int sum = 0;
 
         int closest = Integer.MAX_VALUE;
         
        int i = 0;
-       for(i = 0; i < nums.length - 2; i++){
+       for(i = 0; i < nums.length; i++){
            
            if(i > 0 && nums[i] == nums[i - 1]){ 
              continue;
