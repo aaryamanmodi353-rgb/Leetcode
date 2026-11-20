@@ -3,14 +3,13 @@ class Solution {
 
     
 
-        int arr[] = new int[26];
-
         int left = 0;
         int right = 0;
 
         int maxLen = 0;
         int maxFreq = 0;
-        
+
+        int arr[] = new int[26];
         while(right < s.length()){
 
             int val = s.charAt(right) - 'A';
@@ -21,8 +20,8 @@ class Solution {
 
             if(maxLen - maxFreq + 1 > k){
 
-                 val = s.charAt(left) - 'A';
-                arr[val]--;
+                int removeChar = s.charAt(left) - 'A';
+                arr[removeChar]--;
                 left++;
                 
         
