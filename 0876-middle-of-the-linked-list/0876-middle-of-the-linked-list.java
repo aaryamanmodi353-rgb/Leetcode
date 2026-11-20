@@ -17,8 +17,8 @@ class Solution {
         while(fastPointer != null && fastPointer.next != null){
 
             slowPointer = slowPointer.next;
-            fastPointer = fastPointer.next;
-            fastPointer = fastPointer.next;
+            fastPointer = fastPointer.next.next;
+            
 
             
         }
