@@ -163,6 +163,7 @@ Here i upload the solved questions on leetcode
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
@@ -217,6 +218,7 @@ Here i upload the solved questions on leetcode
 | [0287-find-the-duplicate-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Binary Lifting
@@ -338,6 +340,7 @@ Here i upload the solved questions on leetcode
 | [0209-minimum-size-subarray-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Sorting
 |  |
@@ -355,6 +358,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Heap (Priority Queue)
 |  |
