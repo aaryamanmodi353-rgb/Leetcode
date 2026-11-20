@@ -14,6 +14,7 @@ Here i upload the solved questions on leetcode
 | [0179-largest-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0344-reverse-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -240,6 +241,7 @@ Here i upload the solved questions on leetcode
 | [0142-linked-list-cycle-ii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -334,6 +336,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Sorting
