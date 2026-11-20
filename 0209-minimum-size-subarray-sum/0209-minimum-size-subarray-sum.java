@@ -5,13 +5,12 @@ class Solution {
         int right = 0;
 
         int sum = 0;
-
         int maxLen = Integer.MAX_VALUE;
 
+
         while(right < nums.length){
+
             sum += nums[right];
-            
-            
 
             while(sum >= target){
                 maxLen = Math.min(right - left + 1, maxLen);
@@ -19,16 +18,15 @@ class Solution {
                 left++;
 
             }
-
             right++;
-            
-
-            
-            
 
         }
 
-        return maxLen == Integer.MAX_VALUE ? 0 : maxLen;
+        if(maxLen == Integer.MAX_VALUE){
+            return 0;
+        }
+
+     return maxLen;
         
     }
 }
