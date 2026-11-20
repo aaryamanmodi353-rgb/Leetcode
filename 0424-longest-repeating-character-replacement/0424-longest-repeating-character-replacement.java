@@ -20,8 +20,8 @@ class Solution {
 
             if(maxLen - maxFreq + 1 > k){
 
-                int removeChar = s.charAt(left) - 'A';
-                arr[removeChar]--;
+                 val = s.charAt(left) - 'A';
+                arr[val]--;
                 left++;
                 
         
