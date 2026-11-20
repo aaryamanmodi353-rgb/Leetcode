@@ -159,6 +159,7 @@ Here i upload the solved questions on leetcode
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
+| [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0994-rotting-oranges) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -240,6 +241,7 @@ Here i upload the solved questions on leetcode
 | [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## DP on Trees
 |  |
@@ -332,6 +334,7 @@ Here i upload the solved questions on leetcode
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Sorting
 |  |
