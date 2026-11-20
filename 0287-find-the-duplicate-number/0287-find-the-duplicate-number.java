@@ -9,12 +9,9 @@ class Solution {
             fast = nums[fast];
             fast = nums[fast];
 
-
             if(slow == fast){
                 break;
             }
-
-        
         }
 
         slow = nums[0];
@@ -23,9 +20,13 @@ class Solution {
             slow = nums[slow];
             fast = nums[fast];
 
+
         }
 
+
         return slow;
+
+
         
     }
 }
