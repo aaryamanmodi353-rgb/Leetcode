@@ -12,27 +12,25 @@ class Solution {
 
             hmap.put(fruits[right], hmap.getOrDefault(fruits[right], 0) + 1);
 
-            if(hmap.size() > 2){
-                
+            while(hmap.size() > 2){
                 int val = hmap.get(fruits[left]);
                 val--;
 
                 if(val == 0){
                     hmap.remove(fruits[left]);
-
+                    
                 }
-                
                 else{
                     hmap.put(fruits[left], val);
-                    
                 }
 
                 left++;
-
             }
 
-            maxLen = Math.max(right - left + 1, maxLen);
+            
+                maxLen = Math.max(right - left + 1, maxLen);
 
+            
             right++;
         }
 
