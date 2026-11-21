@@ -25,6 +25,7 @@ Here i upload the solved questions on leetcode
 | [0152-maximum-product-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0509-fibonacci-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0509-fibonacci-number) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 ## Backtracking
 |  |
 | ------- |
@@ -168,6 +169,7 @@ Here i upload the solved questions on leetcode
 | [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Breadth-First Search
 |  |
