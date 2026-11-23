@@ -162,6 +162,7 @@ Here i upload the solved questions on leetcode
 | [0215-kth-largest-element-in-an-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0560-subarray-sum-equals-k](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0860-lemonade-change](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -248,6 +249,7 @@ Here i upload the solved questions on leetcode
 | [0202-happy-number](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0202-happy-number) |
 | [0242-valid-anagram](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0904-fruit-into-baskets](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -362,6 +364,7 @@ Here i upload the solved questions on leetcode
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [2271-maximum-white-tiles-covered-by-a-carpet](https://github.com/aaryamanmodi353-rgb/Leetcode/tree/master/2271-maximum-white-tiles-covered-by-a-carpet) |
 ## Heap (Priority Queue)
